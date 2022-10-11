@@ -1,0 +1,46 @@
+#clockContainer {
+    /* isse jo hands hain wo clock  k hisab se rhen ge */
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(Clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.5%;
+    left: 49.48%;
+    height: 25%;
+    top: 25%;
+    opacity: 0.8;  
+}
+
+
+#minute {
+    width: 1.5%;
+    left: 49.48%;
+    height: 30%;
+    top: 19%;
+    opacity: 0.8; 
+    
+}
+
+
+#second{
+    width: 0.8%;
+    left: 49.48%;
+    height: 40%;
+    top: 9%;
+    opacity: 0.8; 
+    
+} 
